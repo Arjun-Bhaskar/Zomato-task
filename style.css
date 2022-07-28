@@ -1,0 +1,99 @@
+
+      #color {
+        background-image: linear-gradient(
+          to right,
+          #ff8177 0%,
+          #ff867a 0%,
+          #ff8c7f 21%,
+          #f99185 52%,
+          #cf556c 78%,
+          #b12a5b 100%
+        );
+      }
+      #bgimg {
+        z-index: -1;
+        object-fit: cover;
+      }
+
+      #banner {
+        height: calc(100vh - 56px);
+      }
+      .fix-height {
+        height: 10rem;
+        object-fit: cover;
+      }
+      .card {
+        border-radius: 15px;
+        background-size: cover;
+      }
+      .card > img {
+        border-radius: 15px;
+      }
+      .card:hover {
+        transition: all 0.8s ease-in-out;
+        transform: scale(1.1);
+      }
+      .title > span {
+        font-size: 2.5rem;
+      }
+      #popularity div {
+        box-shadow: rgb(28 28 28 / 25%) 0px 1.42623px 2.85246px;
+      }
+      .accordion-item {
+        box-shadow: rgb(28 28 28 / 20%) 0px 1.42623px 2.85246px;
+        border-radius: 5px;
+      }
+      .accordion-header {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      .list1 {
+        list-style-type: disc;
+        color: grey;
+      }
+      .list1 > li > a {
+        text-decoration: none;
+        color: grey;
+      }
+      .place {
+        box-shadow: rgb(28 28 28 / 8%) 0px 4px;
+        padding: 1.2rem 1.5rem;
+        border-radius: 0.8rem;
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(232, 232, 232);
+        margin-bottom: 0.5rem;
+      }
+      .card2 {
+        height: 380px;
+      }
+      .confirm {
+        background: border-box rgb(239, 79, 95);
+        border-color: rgb(239, 79, 95);
+      }
+      .footerimg{
+        margin-left: 4rem;
+        margin-top: 5rem;
+      }
+      .last2{
+        margin-top: 5rem !important;
+        margin-left: 38rem !important;
+        max-width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: rgb(28, 28, 28);
+        
+        font-weight: 400;
+      }
+      .last3{
+        margin-top: 5rem ;
+        background-color: white;
+        margin-left: 1rem !important;
+        max-width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: rgb(28, 28, 28);
+        
+        font-weight: 400;
+      }
